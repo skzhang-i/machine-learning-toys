@@ -3,8 +3,9 @@
 ###### This is written for myself to remind me how to set an environment in Win 10.
 
 1. Download and install [Anaconda](https://www.anaconda.com/) and [VS Code](https://code.visualstudio.com/). Make sure they are the newest versions. 
-2. Open "Anaconda Prompt" in Start Menu of the OS. Use pip to get newer version of TF. 
+2. Open "Anaconda Prompt" in Start Menu of the OS. Use pip to get newer version of TF. You also need to upgrade pip. 
     ```
+    pip install --upgrade pip
     pip install tensorflow==2.1 
     ```
     If you are in China you may need a VPN. I used to install TF successfully in university but I can't download it at home. Using the mirror version by Tsinghua may report an error, at least it reported a bunch of errors for me.
